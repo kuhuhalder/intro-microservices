@@ -1,6 +1,6 @@
 # intro-microservices
 
-In this tutorial, we built two microservices that communicate with each other using REST. We also used Docker to containerize the services and Docker Compose to run them together.
+In this tutorial, we built two different microservices that communicate with each other using REST. We also used Docker to containerize the services and Docker Compose to run them together.
 
 ## Prerequisites
 
@@ -13,7 +13,9 @@ In this tutorial, we built two microservices that communicate with each other us
 
 To run the services, run the following command:
 
-``` docker-compose build ```
+``` bash
+docker-compose build 
+```
 
 ```bash
 docker-compose up
